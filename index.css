@@ -1,9 +1,315 @@
-table, tr, th, td{
-    border-style: solid;
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color:#708090 ;
+    height: 100vh;
+}
+
+
+.flex
+{
+    display: flex;
+}
+
+.header
+{
+    padding: 40px 4%;
+    background-color: #708090;
 
 }
 
-section:first-child{
-    animation-iteration-count: infinite;
-    ani
+header > .cabeçalho
+{
+    display: flex;
+    align-items: center;
+    max-width: 1280px;
 }
+ 
+
+header .UVV
+{
+    padding: 0%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+header a
+{
+    color: #aaaaaa;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover
+{
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul
+{
+    list-style-type: none;
+}
+
+header nav li
+{
+    display: inline-block;
+    padding: 0 40px;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+header .especialista button
+{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #363636;
+    color: #fff;
+    border: 0;
+    border-radius: 30px;
+    margin-left: 100px;
+}
+
+header .especialista button:houver
+{
+    box-shadow: 0px 0px 8px #363636;
+}
+    
+
+section.parte01
+{
+    padding: 40px 4%;
+    margin: 100px 0;
+}
+
+section.parte01 .flex
+{
+    align-items: center;
+    justify-content: center;
+    gap: 200px;   
+}
+
+.parte01 h1
+{
+    color: #fff;
+    font-size: 38px;
+
+}
+
+.parte01 h4
+{
+    color: #fff;
+    font-size: 30px;
+}
+
+
+.parte01 p
+{
+    color: #fff;
+    margin: 40px 0;
+}
+
+
+.contato
+{
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.parte01 .foto01 img
+{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+
+@keyframes flutuar
+{
+    0%
+    {
+        top: 0;
+    }    
+    100%
+    {
+        top: 30px;
+    }
+
+}
+
+section .sobre
+{
+    padding: 40px 4%
+}
+
+section.sobre .flex
+{
+    align-items: center;
+    gap: 60px;
+
+}
+
+
+.sobre .imagem02
+{
+    padding: 40px 4%;
+    border: none;
+    border-radius: 50%;
+}
+
+.texto02
+{
+    color: #fff;    
+}
+
+.texto02 h2
+{
+    font-size: 80px;
+    text-align: center;
+    color: #aaaaaa;
+    margin: 20px;
+}
+
+.texto02 p
+{
+    font-size: 30px;
+}
+
+section.competencias
+{
+    padding: 40px 4%;
+    justify-content: space-between;
+}
+
+
+.competencias .linha01 h5
+{
+    font-size: 30px;
+    margin: 100px;
+    color: #fff;
+}
+
+.competencias .linha01 h6
+{
+    font-size: 30px;
+    margin: 100px;
+    color: #fff;    
+}
+
+
+.competencias .linha01 li
+{
+    padding: 0 40px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    list-style: none;
+
+}
+
+
+.competencias .linha02
+{
+    margin-left: 500px;
+}
+
+
+
+.competencias .linha02 h5
+{
+    font-size: 30px;
+    margin: 100px;
+    color: #fff;
+}
+
+
+.competencias .linha02 h6
+{
+    font-size: 30px;
+    margin: 100px;
+    color: #fff;    
+}
+
+
+.competencias .linha02 p
+{
+    padding: 0 40px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+
+}
+
+.competencias .linha02 li
+{
+    padding: 0 40px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    list-style: none;
+    margin-left: 50px;
+
+}
+
+footer
+{
+    padding: 60px 4%;
+    box-shadow: 0 0 40px #363636;
+}
+
+footer .flex
+{
+    justify-content: space-between;
+      
+}
+
+footer .line-footer
+{
+    padding: 20px 0;
+}
+
+.borda
+{
+    border-top: 2px solid #fff ;
+}
+
+
+footer .line-footer p
+{
+    color: #fff;
+    font-size: 20px;
+    
+}
+
+
+footer .line-footer p a
+{
+    color: #fff;
+    margin-left: 30px;
+    
+}
+
+footer .line-footer p button
+{
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 900;
+    background-color: #363636;
+    color: #fff;
+    border: 0;
+    border-radius: 30px;
+
+}
+
+
